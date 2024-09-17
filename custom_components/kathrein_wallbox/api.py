@@ -40,12 +40,12 @@ class KathreinWallboxApiClient:
 
     def __init__(
         self,
-        username: str,
+        hostname: str,
         password: str,
         session: aiohttp.ClientSession,
     ) -> None:
         """Sample API Client."""
-        self._username = username
+        self._hostname = hostname
         self._password = password
         self._session = session
 
