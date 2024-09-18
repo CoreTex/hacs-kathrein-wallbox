@@ -18,7 +18,7 @@ from homeassistant.const import (
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
-from .const import CHARGING_CURRENTS, DOMAIN, DYNAMIC_UNIT
+from .const import DYNAMIC_UNIT
 
 from .entity import KathreinWallboxEntity
 
